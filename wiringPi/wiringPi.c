@@ -257,7 +257,7 @@ const char *piModelNames [16] =
   "Banana Pi M2 Ultra[V40]",	// 32
   "Banana Pi M2 Zero[H2+/H3]",	// 33
   "Orange Pi PC[H3]",	// 34
-  "Orange Pi PC 2[H3]",	// 35
+  "Orange Pi PC 2[H5]",	// 35
   "Orange Pi PC Plus[H3]",	// 36
   "Orange Pi Win[A64]",	// 37
   "Orange Pi Win Plus[A64]",	// 38
