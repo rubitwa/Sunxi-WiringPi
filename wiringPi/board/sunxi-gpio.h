@@ -360,6 +360,7 @@ SOFTWARE.
 #include "bpi-m3.h"
 #include "bpi-m64.h"
 
-#include "opi-win.h"
+#include "opi-pc.h"		// PC / PC2 / PC Plus
+#include "opi-win.h"	// Win / Win Plus
 #endif
 
