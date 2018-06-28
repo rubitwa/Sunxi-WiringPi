@@ -50,7 +50,6 @@ int pinToGpio_OPI_ZERO [64] =
   -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, // ... 63
 } ;
 
-//map bcm gpio_num(index) to bp gpio_num(element)
 int pinTobcm_OPI_ZERO [64] =
 {
   -1, -1,  //0, 1
@@ -59,7 +58,7 @@ int pinTobcm_OPI_ZERO [64] =
   -1, OPI_ZERO_26,  //6, 7
   OPI_ZERO_24, OPI_ZERO_21,  //8, 9
   OPI_ZERO_19, OPI_ZERO_23,  //10, 11
-  OPI_ZERO_32, -1,  //12, 13
+  -1, -1,  //12, 13
   OPI_ZERO_08, OPI_ZERO_10,  //14, 15
   -1, OPI_ZERO_11,  //16, 17
   OPI_ZERO_12, -1,	 //18, 19
