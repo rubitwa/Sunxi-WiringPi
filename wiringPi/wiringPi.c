@@ -238,6 +238,7 @@ const char *piModelNames [16] =
   "Unknown14",	// 14
   "Unknown15",	// 15
 #ifdef SUNXI
+  // Banana Pi
   "Banana Pi[New]",	// 16
   "Banana Pi[X86]",	// 17
   "Raspbery Pi[RPI]",	// 18
@@ -256,11 +257,16 @@ const char *piModelNames [16] =
   "Banana Pi M2+[H5]",	// 31
   "Banana Pi M2 Ultra[V40]",	// 32
   "Banana Pi M2 Zero[H2+/H3]",	// 33
-  "Orange Pi PC[H3]",	// 34
-  "Orange Pi PC 2[H5]",	// 35
-  "Orange Pi PC Plus[H3]",	// 36
-  "Orange Pi Win[A64]",	// 37
+  // Orange Pi
+  "Orange Pi PC[H3]",			// 34
+  "Orange Pi PC 2[H5]",			// 35
+  "Orange Pi PC Plus[H3]",		// 36
+  "Orange Pi Win[A64]",			// 37
   "Orange Pi Win Plus[A64]",	// 38
+  "Orange Pi Zero[H2+]",		// 39
+  "Orange Pi Zero Plus[H5]",	// 40
+  "Orange Pi R1[H2+]",			// 41
+  "Orange Pi Zero Plus2[H3/H5]",// 42
   NULL,
 #endif
 } ;
