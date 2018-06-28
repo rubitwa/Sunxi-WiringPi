@@ -1,0 +1,17 @@
+git clone --branch next https://github.com/rubitwa/Sunxi-WiringPi.git
+cd Sunxi-WiringPi
+./build
+mkdir /var/lib/sunxi
+
+# Choose board
+# Orange Pi Win / Win Plus: <opi-win/opi-winp>
+# Orange Pi PC / PC 2 / PC Plus: <opi-pc/opi-pc2/opi-pcp>
+# Orange Pi Zero / Zero Plus / R1: <opi-zero/opi-zerop/opi-r1>
+# Orange Pi Zero Plus2: <opi-zerop2>
+echo '#!/bin/sh' > /var/lib/sunxi/board.sh
+echo 'BOARD=opi-win' >> /var/lib/sunxi/board.sh
+
+# check
+cat /var/lib/sunxi/board.sh
+#!/bin/sh
+BOARD=opi-win
