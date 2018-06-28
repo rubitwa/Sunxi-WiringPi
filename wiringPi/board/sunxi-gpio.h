@@ -362,5 +362,7 @@ SOFTWARE.
 
 #include "opi-pc.h"		// PC / PC2 / PC Plus
 #include "opi-win.h"	// Win / Win Plus
-#endif
+#include "opi-zero.h"	// Zero / Zero Plus / R1
+#include "opi-zerop2.h"	// Zero Plus2
 
+#endif
