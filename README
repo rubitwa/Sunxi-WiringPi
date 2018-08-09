@@ -13,3 +13,6 @@ echo 'BOARD=opi-win' >> /var/lib/sunxi/board.sh
 cat /var/lib/sunxi/board.sh
 #!/bin/sh
 BOARD=opi-win
+
+
+# full boards list u can look in file: /wiringPi/wiringPi_sunxi.c#L1349
