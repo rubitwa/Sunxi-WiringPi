@@ -8,6 +8,7 @@ mkdir /var/lib/sunxi
 # Orange Pi PC / PC 2 / PC Plus: <opi-pc/opi-pc2/opi-pcp>
 # Orange Pi Zero / Zero Plus / R1: <opi-zero/opi-zerop/opi-r1>
 # Orange Pi Zero Plus2: <opi-zerop2>
+# Orange Pi One Plus / Lite 2: <opi-onep/opi-lite2>
 echo '#!/bin/sh' > /var/lib/sunxi/board.sh
 echo 'BOARD=opi-win' >> /var/lib/sunxi/board.sh
 
