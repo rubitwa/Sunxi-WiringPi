@@ -267,6 +267,8 @@ const char *piModelNames [16] =
   "Orange Pi Zero Plus[H5]",	// 40
   "Orange Pi R1[H2+]",			// 41
   "Orange Pi Zero Plus2[H3/H5]",// 42
+  "Orange Pi One Plus[H6]",// 43
+  "Orange Pi Lite 2[H6]",// 44
   NULL,
 #endif
 } ;
