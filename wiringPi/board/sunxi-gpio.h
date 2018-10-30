@@ -364,5 +364,6 @@ SOFTWARE.
 #include "opi-win.h"	// Win / Win Plus
 #include "opi-zero.h"	// Zero / Zero Plus / R1
 #include "opi-zerop2.h"	// Zero Plus2
+#include "opi-onep.h"	// One Plus / Lite 2
 
 #endif
